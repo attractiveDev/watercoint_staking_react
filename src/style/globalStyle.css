@@ -1,0 +1,37 @@
+:root {
+  --primary: #0D2031;
+  --secondary: #1B6A97;
+  --text-primary: white;
+  --text-secondary: grey;
+}
+
+[data-theme='dark'] {
+  --primary: tomato;
+  --secondary: #0D2031;
+  --text-primary: black;
+  --text-secondary: grey;
+}
+
+body {
+  margin: 0px;
+  background: linear-gradient(to bottom, rgb(186, 230, 253) 40%, white 40%, white 60%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+* {
+  color: grey;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter',
+    'Roboto',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  transition: all .5s;
+}

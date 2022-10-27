@@ -1,0 +1,9 @@
+{
+  "name": "Binance Smart Chain Mainnet",
+  "chain_id": "56",
+  "write_rpc": "https://binance.nodereal.io",
+  "read_rpc": "https://binance.nodereal.io",
+  "symbol": "BNB",
+  "explorer": "https://testnet.bscscan.com",
+  "stake_contract": "0x33612D7fA7D30b4baE02894d11688F47dF44D7fB"
+}
